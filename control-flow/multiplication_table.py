@@ -3,6 +3,8 @@ range(1, 11)
 for Z in range(1, 11):
     number = X
     product = X * Z
-    print(X, "*", Z, "=", product)
+    print(f"{X} * {Z} = {product}")
+    print()
+
 
 
