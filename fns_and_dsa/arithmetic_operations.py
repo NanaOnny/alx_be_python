@@ -20,8 +20,10 @@ def perform_operation(num1, num2, operation):
         try:
             result = num1 / num2
         except ZeroDivisionError:
-
             return "Error: Division by zero is undefined."
+    elif num2 == 0:
+        return "Error: Division by zero is undefined."
+
 
 from arithmetic_operations import perform_operation
 
